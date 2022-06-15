@@ -27,23 +27,55 @@
                 <div class="col-10 container-fluid">
                     <form class="row">
                         <div class="col-5 mb-3">
+                            <input type="text" id="userName" class="rounded-3 border-0 p-1 text-dark" placeholder="Nome Passeggero">
+                        </div>
+
+                        <div class="col-4 mb-3">
                             <input type="text" id="kmToGo" class="rounded-3 border-0 p-1 text-dark" placeholder="Inserire i Km">
                         </div>
 
-                        <div class="col-5 mb-3">
+                        <div class="col-3 mb-3">
                             <input type="text" id="userAge" class="rounded-3 border-0 p-1 text-dark" placeholder="Inserire l'età">
                         </div>
 
                         <div class="col-2 mb-3">
-                            <input type="text" id="userAge" class="rounded-3 border-0 p-1 text-dark" placeholder="Passeggeri">
-                        </div>
-
-                        <div class="col-2">
                             <input class="btn btn-primary" type="button" value="Invia">
                         </div>
                     </form>
 
-                    <div id="valueInput"></div>
+                    <h3 id="n-ticket" class="d-none my-2">IL TUO BIGLIETTO</h3>
+                    <div id="valueInput" class="rounded-3 container-fluid p-3 d-none">
+                        <div class="row border-top border-bottom border-dark">
+                            <div class="col-5 p-2 bg-secondary">
+                                <h4>NOME PASSEGGERO</h4>
+                                <p id="passengerName" class="text-white"></p>
+                            </div>
+
+                            <div class="col-7 p-2 container-fluid">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <p>Offerta</p>
+                                        <p id="offer"></p>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <p>Carrozza</p>
+                                        <p id="carriageNumber"></p>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <p>Codice Cp</p>
+                                        <p id="code"></p>
+                                    </div>
+
+                                    <div class="col-3">
+                                        <p>Costo Biglietto</p>
+                                        <p id="ticketPrice"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>

@@ -1,4 +1,4 @@
-*{
+h1, h2, h3{
     color: white;
 }
 
@@ -13,7 +13,10 @@ input{
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: black;
     font-weight: bold;
     opacity: 1; /* Firefox */
-  }
+}
+
+#valueInput{
+    background-color: white;
+}
